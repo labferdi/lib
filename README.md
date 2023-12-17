@@ -4,14 +4,11 @@ Run on
 - mysql Ver 15.1
 
 
-DB Name : lib
-
-
 # create table
-1. php spark db:create [db_name]
+1. php spark db:create lib
 
 # migrate
 2. php spark migrate
 
-# seed sample date
+# seed sample data
 3. php spark db:seed DBSeeder
